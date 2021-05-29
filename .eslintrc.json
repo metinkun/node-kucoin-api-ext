@@ -1,0 +1,26 @@
+{
+  // "extends": ["eslint:recommended", "plugin:node/recommended", "plugin:import/recommended"],
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    // Only ESLint 6.2.0 and later support ES2020.
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "strict": 0,
+    "node/exports-style": ["error", "module.exports"],
+    "node/prefer-global/buffer": ["error", "always"],
+    "node/prefer-global/console": ["error", "always"],
+    "node/prefer-global/process": ["error", "always"],
+    "node/prefer-global/url-search-params": ["error", "always"],
+    "node/prefer-global/url": ["error", "always"],
+    "node/prefer-promises/dns": "error",
+    "node/prefer-promises/fs": "error",
+    "node/no-missing-import": 0,
+    "node/no-unsupported-features/es-syntax": 0,
+    "node/no-unpublished-import": 0
+  }
+}

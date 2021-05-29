@@ -1,7 +1,7 @@
 {
-  "name": "kucoin-node-api",
-  "version": "1.2.2",
-  "description": "Node.js KuCoin Cryptocurrency Exchange v2 API Wrapper/SDK",
+  "name": "node-kucoin-api-ext",
+  "version": "0.0.2",
+  "description": "Extended KuCoin Nodejs Api Wrapper",
   "main": "kucoin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "KCS",
     "SDK"
   ],
-  "author": "Eric Abrahams",
+  "author": "metin.kun",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
@@ -23,6 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/escwdev/kucoin-node-api"
+    "url": "https://github.com/metinkun/node-kucoin-api-ext"
   }
 }
