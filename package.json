@@ -1,6 +1,6 @@
 {
   "name": "node-kucoin-api-ext",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "Extended KuCoin Nodejs Api Wrapper",
   "main": "kucoin.js",
   "scripts": {
